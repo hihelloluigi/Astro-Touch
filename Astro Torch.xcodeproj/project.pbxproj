@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A010E971E2A6A300089C1BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A010E961E2A6A300089C1BB /* AppDelegate.swift */; };
+		2A010E991E2A6A300089C1BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A010E981E2A6A300089C1BB /* ViewController.swift */; };
+		2A010E9C1E2A6A300089C1BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A010E9A1E2A6A300089C1BB /* Main.storyboard */; };
+		2A010E9E1E2A6A300089C1BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A010E9D1E2A6A300089C1BB /* Assets.xcassets */; };
+		2A010EA11E2A6A300089C1BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A010E9F1E2A6A300089C1BB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A010E931E2A6A300089C1BB /* Astro Torch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Astro Torch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A010E961E2A6A300089C1BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A010E981E2A6A300089C1BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A010E9B1E2A6A300089C1BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A010E9D1E2A6A300089C1BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A010EA01E2A6A300089C1BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A010EA21E2A6A300089C1BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A010E901E2A6A2F0089C1BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A010E8A1E2A6A2F0089C1BB = {
+			isa = PBXGroup;
+			children = (
+				2A010E951E2A6A300089C1BB /* Astro Torch */,
+				2A010E941E2A6A300089C1BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A010E941E2A6A300089C1BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A010E931E2A6A300089C1BB /* Astro Torch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A010E951E2A6A300089C1BB /* Astro Torch */ = {
+			isa = PBXGroup;
+			children = (
+				2A010E961E2A6A300089C1BB /* AppDelegate.swift */,
+				2A010E981E2A6A300089C1BB /* ViewController.swift */,
+				2A010E9A1E2A6A300089C1BB /* Main.storyboard */,
+				2A010E9D1E2A6A300089C1BB /* Assets.xcassets */,
+				2A010E9F1E2A6A300089C1BB /* LaunchScreen.storyboard */,
+				2A010EA21E2A6A300089C1BB /* Info.plist */,
+			);
+			path = "Astro Torch";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A010E921E2A6A2F0089C1BB /* Astro Torch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A010EA51E2A6A300089C1BB /* Build configuration list for PBXNativeTarget "Astro Torch" */;
+			buildPhases = (
+				2A010E8F1E2A6A2F0089C1BB /* Sources */,
+				2A010E901E2A6A2F0089C1BB /* Frameworks */,
+				2A010E911E2A6A2F0089C1BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Astro Torch";
+			productName = "Astro Torch";
+			productReference = 2A010E931E2A6A300089C1BB /* Astro Torch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A010E8B1E2A6A2F0089C1BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Luigi Aiello";
+				TargetAttributes = {
+					2A010E921E2A6A2F0089C1BB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = LAT58Z69VZ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2A010E8E1E2A6A2F0089C1BB /* Build configuration list for PBXProject "Astro Torch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A010E8A1E2A6A2F0089C1BB;
+			productRefGroup = 2A010E941E2A6A300089C1BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A010E921E2A6A2F0089C1BB /* Astro Torch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A010E911E2A6A2F0089C1BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A010EA11E2A6A300089C1BB /* LaunchScreen.storyboard in Resources */,
+				2A010E9E1E2A6A300089C1BB /* Assets.xcassets in Resources */,
+				2A010E9C1E2A6A300089C1BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A010E8F1E2A6A2F0089C1BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A010E991E2A6A300089C1BB /* ViewController.swift in Sources */,
+				2A010E971E2A6A300089C1BB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2A010E9A1E2A6A300089C1BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A010E9B1E2A6A300089C1BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A010E9F1E2A6A300089C1BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A010EA01E2A6A300089C1BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A010EA31E2A6A300089C1BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A010EA41E2A6A300089C1BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A010EA61E2A6A300089C1BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LAT58Z69VZ;
+				INFOPLIST_FILE = "Astro Torch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.luigiaiello.Astro-Torch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2A010EA71E2A6A300089C1BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LAT58Z69VZ;
+				INFOPLIST_FILE = "Astro Torch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.luigiaiello.Astro-Torch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A010E8E1E2A6A2F0089C1BB /* Build configuration list for PBXProject "Astro Torch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A010EA31E2A6A300089C1BB /* Debug */,
+				2A010EA41E2A6A300089C1BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A010EA51E2A6A300089C1BB /* Build configuration list for PBXNativeTarget "Astro Torch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A010EA61E2A6A300089C1BB /* Debug */,
+				2A010EA71E2A6A300089C1BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A010E8B1E2A6A2F0089C1BB /* Project object */;
+}
